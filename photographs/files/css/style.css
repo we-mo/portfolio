@@ -277,10 +277,12 @@ body {
   padding: 270px 0px 200px;
 }
 .photographs-images li + li {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 .photographs-images li img {
   width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 .photographs-title {
   display: none;
